@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         window.open("password.html", "_self");
     });
 
-    let wifiButton = document.createElement("goToWiFiPage");
+    let wifiButton = document.createElement("wifiButton");
     wifiButton.textContent = "使用公用網路的風險";
     wifiButton.style.padding = "10px 20px";
     wifiButton.style.fontSize = "16px";
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // 修正按鈕事件綁定
     wifiButton.addEventListener("click", function () {
-        window.open("/html/wifi.html", "_self"); 
+        window.open("html/wifi.html", "_self"); 
     });
     
     // 將創建的按鈕添加到頁面
