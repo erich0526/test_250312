@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // 修正按鈕事件綁定
     wifiButton.addEventListener("click", function () {
-        window.open("html/wifi.html", "_self");  // 使用 _self 在當前頁面打開 wifi.html
+        window.open("/html/wifi.html", "_self"); 
     });
     
     // 將創建的按鈕添加到頁面
