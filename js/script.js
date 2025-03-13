@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // 創建按鈕
-    let button = document.createElement("button");
-    button.textContent = "前往新頁面";
-    button.style.padding = "10px 20px";
-    button.style.fontSize = "16px";
-    button.style.marginTop = "20px";
+    // // 創建按鈕
+    // let button = document.createElement("button");
+    // button.textContent = "前往新頁面";
+    // button.style.padding = "10px 20px";
+    // button.style.fontSize = "16px";
+    // button.style.marginTop = "20px";
     
-    // 按鈕點擊事件
-    button.addEventListener("click", function () {
-        window.open("password.html", "_self");
-    });
+    // // 按鈕點擊事件
+    // button.addEventListener("click", function () {
+    //     window.open("password.html", "_self");
+    // });
 
     // 找到現有的 Wi-Fi 按鈕
     let wifiButton = document.getElementById("goToWiFiPage");
