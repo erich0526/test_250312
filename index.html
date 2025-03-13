@@ -2,19 +2,36 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>簡單網頁</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 50px;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 480px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
-    <h1>歡迎來到我的網頁</h1>
-    <p>這是一個簡單的 HTML 頁面。</p>
+    <div class="container">
+        <h1>歡迎來到我的網頁</h1>
+        <p>這是一個簡單的 HTML 頁面，已針對手機顯示進行優化。</p>
+    </div>
 </body>
 </html>
-
