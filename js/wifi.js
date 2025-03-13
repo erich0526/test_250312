@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 當按鈕被點擊時
     Homebutton.addEventListener('click', function () {
-        window.open('index.html', '_self');
+        window.open('/test_250312/index.html', '_self');
     });
 
 });
