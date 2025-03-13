@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // });
 
     // 找到現有的 Wi-Fi 按鈕
-    let wifiButton = document.getElementById("goToWiFiPage");
+    let wifiButton = document.createElement("goToWiFiPage");
     wifiButton.textContent = "使用公用網路的風險";
     wifiButton.style.padding = "10px 20px";
     wifiButton.style.fontSize = "16px";
