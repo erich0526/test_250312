@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 當按鈕被點擊時
     button.addEventListener('click', function () {
-        window.open('password.html', '_self');
+        window.open('html/password.html', '_self');
     });
 
     wifiButton.addEventListener('click', function () {
