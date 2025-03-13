@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // 按鈕點擊事件
     button.addEventListener("click", function () {
-        window.open("/html/password.html", "_blank");
+        window.open("html/password.html", "_blank");
     });
     
     // 將按鈕添加到頁面
