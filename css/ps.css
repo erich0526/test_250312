@@ -1,6 +1,27 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    height: 100vh; /* 讓頁面充滿視窗 */
+}
+.container {
+    text-align: center;
+    background-color: white;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 .password-container {
     width: 300px;
