@@ -28,10 +28,9 @@ p {
     margin: auto;
 }
 input[type="password"] {
-    width: 100%;
+    width: 90%;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: 10px 0;
 }
 .strength-bar {
     height: 10px;
