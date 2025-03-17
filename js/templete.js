@@ -1,25 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const battleText = document.getElementById("battle-text");
-    const fightButton = document.getElementById("fight");
-    const bagButton = document.getElementById("bag");
-    const pokemonButton = document.getElementById("pokemon");
-    const runButton = document.getElementById("run");
+    const content_text = document.getElementById("content");
+    const Button_A = document.getElementById("A");
+    const Button_B = document.getElementById("B");
+    const Button_C = document.getElementById("C");
+    const Button_D = document.getElementById("D");
 
-    fightButton.addEventListener("click", function () {
-        battleText.textContent = "Blastoise used Hydro Pump!";
-        battleText.classList.add("attack-animation");
-        setTimeout(() => battleText.classList.remove("attack-animation"), 1000);
+    Button_A.addEventListener("click", function () {
+        content_text.textContent = "Blastoise used Hydro Pump!";
     });
 
-    bagButton.addEventListener("click", function () {
-        battleText.textContent = "Opened the bag...";
+    Button_B.addEventListener("click", function () {
+        content_text.textContent = "Opened the bag...";
     });
 
-    pokemonButton.addEventListener("click", function () {
-        battleText.textContent = "Choose another Pokémon...";
+    Button_C.addEventListener("click", function () {
+        content_text.textContent = "Choose another Pokémon...";
     });
 
-    runButton.addEventListener("click", function () {
-        battleText.textContent = "Can't escape!";
+    Button_D.addEventListener("click", function () {
+        content_text.textContent = "Can't escape!";
     });
 });
