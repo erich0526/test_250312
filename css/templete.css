@@ -16,11 +16,33 @@ body {
     font-style: italic;
 }
 
-.enemy-team, .player-team {
-    display: flex;
-    justify-content: space-around;
+.enemy-team,
+.player-team {
     width: 80%;
-    margin: 20px 0;
+}
+
+.enemy-img,
+.player-img {
+    width: 120px;
+    /* 設定圖片寬度 */
+    height: auto;
+    /* 保持原始比例 */
+}
+
+.enemy-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.player-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .battle-menu {
