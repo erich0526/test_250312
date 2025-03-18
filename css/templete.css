@@ -16,33 +16,34 @@ body {
     font-style: italic;
 }
 
-.enemy-team,
 .player-team {
-    width: 80%;
-}
-
-.enemy-img,
-.player-img {
-    width: 120px;
-    /* 設定圖片寬度 */
-    height: auto;
-    /* 保持原始比例 */
-}
-
-.enemy-team {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.player-team {
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.enemy-team {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.enemy-img,
+.player-img {
+    width: 120px;
+    height: auto;
 }
 
 .battle-menu {
@@ -52,6 +53,8 @@ body {
     padding: 15px;
     margin-top: 20px;
     text-align: left;
+    position: absolute;
+    bottom: 10%;
 }
 
 .menu-options {
