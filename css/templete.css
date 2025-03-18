@@ -58,9 +58,29 @@ body {
 }
 
 .menu-options {
-    /* display: flex; */
-    justify-content: space-around;
-    margin-top: 10px;
+    display: grid;
+    /* justify-content: space-around; */
+    /* margin-top: 10px; */
+}
+
+#A {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#B {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#C {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#D {
+    grid-column: 2;
+    grid-row: 2;
 }
 
 button {
