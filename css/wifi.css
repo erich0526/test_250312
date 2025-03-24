@@ -15,6 +15,7 @@ body {
 
 #content {
     font-style: italic;
+    height: 50px;
 }
 
 .player-team {
@@ -70,6 +71,7 @@ body {
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(2, 75%);
     column-gap: 10%;
     row-gap: 15%;
 }
