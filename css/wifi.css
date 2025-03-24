@@ -52,12 +52,12 @@ body {
     background-color: white;
     border: 2px solid black;
     width: 80%;
-    height: 25%;
+    height: 30%;
     padding: 15px;
     margin-top: 20px;
     text-align: left;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 6.5%;
 }
 
