@@ -1,43 +1,100 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    height: 100vh; /* 讓頁面充滿視窗 */
+    background-color: lightgreen;
+    width: 100vw;
 }
 
 .container {
-    text-align: center;
+    width: 90%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#content {
+    font-style: italic;
+}
+
+.player-team {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.enemy-team {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.enemy-img,
+.player-img {
+    width: 120px;
+    height: auto;
+}
+
+.battle-menu {
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    width: 80%;
+    height: 25%;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: left;
+    position: absolute;
+    bottom: 10%;
+    left: 6.5%;
 }
 
-h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
+.menu-options {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    column-gap: 10%;
+    row-gap: 15%;
 }
 
-p {
-    font-size: 16px;
-    margin-bottom: 20px;
+#A {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#B {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#C {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#D {
+    grid-column: 2;
+    grid-row: 2;
 }
 
 button {
-    padding: 10px 20px;
     font-size: 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
+    border: 5px 1px;
     cursor: pointer;
-    margin: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: darkgray;
 }
