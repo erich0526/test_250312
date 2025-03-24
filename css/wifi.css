@@ -60,7 +60,14 @@ body {
     left: 6.5%;
 }
 
-.menu-options {
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
     display: grid;
     grid-template-columns: repeat(2, 45%);
     column-gap: 10%;
