@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let button = document.getElementById('Password');
     let wifiButton = document.getElementById('WiFiPage');
     let templete = document.getElementById('templete');
+    let FA = document.getElementById('2FA');
 
 
     // 當按鈕被點擊時
@@ -16,5 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     templete.addEventListener('click', function () {
         window.open('html/templete.html', '_self');
+    });
+
+    FA.addEventListener('click', function () {
+        window.open('html/2FA.html', '_self');
     });
 });
