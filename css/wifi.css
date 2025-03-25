@@ -64,8 +64,7 @@ body {
 
 .grid {
     width:80vw;
-    height:20vh;
-    margin-bottom: 5vh;
+    height:17vh;
     display: grid;
     place-content: center; 
     grid-template-columns: repeat(2, 125px);
