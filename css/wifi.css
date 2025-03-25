@@ -71,7 +71,7 @@ body {
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: repeat(2, 75%);
+    grid-template-rows: repeat(2);
     column-gap: 10%;
     row-gap: 15%;
 }
