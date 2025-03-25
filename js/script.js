@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let wifiButton = document.getElementById('WiFiPage');
     let templete = document.getElementById('templete');
     let FA = document.getElementById('2FA');
+    let backup = document.getElementById('backup');
+    let update = document.getElementById('update');
 
 
     // 當按鈕被點擊時
@@ -21,5 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     FA.addEventListener('click', function () {
         window.open('html/2FA.html', '_self');
+    });
+
+    backup.addEventListener('click', function () {
+        window.open('html/backup.html', '_self');
+    });
+
+    update.addEventListener('click', function () {
+        window.open('html/update.html', '_self');
     });
 });
