@@ -6,7 +6,27 @@ document.addEventListener("DOMContentLoaded", function () {
     let backup = document.getElementById('backup');
     let update = document.getElementById('update');
     let status = document.getElementById('status');
+    // 取得按鈕元素
+    const randomButton = document.getElementById("randomPage");
 
+    // HTML 資料夾內的頁面列表
+    const pages = [
+        "2FA.html",
+        "backup.html",
+        "password.html",
+        "update.html",
+        "wifi.html"
+    ];
+
+    // 監聽按鈕點擊事件
+    randomButton.addEventListener("click", function () {
+        // 隨機選擇一個頁面
+        const randomIndex = Math.floor(Math.random() * pages.length);
+        const randomPage = pages[randomIndex];
+
+        // 開啟該頁面
+        window.location.href = "html/" + randomPage;
+    });
 
     // 當按鈕被點擊時
     button.addEventListener('click', function () {
